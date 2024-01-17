@@ -88,16 +88,16 @@
 
       <div class="frames">
         <img class="frames_bg" src="./img/frames-bg.png" alt="" />
-        <img src="./img/head.png" alt="" />
+        <img class="frames_head" src="./img/head.png" alt="" />
         <div class="frames_list">
           <div class="frames_item">
-            Sandwich attacks: A block builder or validator spots a large buy (or
+            Sandwich attacks: A block builder or validator spots a large buy (or
             sell) order for one asset. They then place their own order ahead of
             the large buy order and capitalize on the price appreciation that
             this large order causes
           </div>
           <div class="frames_item">
-            DEX arbitrage: A blockchain user runs software (i.e., deploys bots)
+            DEX arbitrage: A blockchain user runs software (i.e., deploys bots)
             to identify price differentials between the same asset on different
             DEXes. Once the software identifies material price differentials, it
             buys an asset on one DEX and sells it on another at a higher price
@@ -105,7 +105,7 @@
           </div>
           <div class="frames_left">
             <div class="frames_item frames_item--small">
-              Back-running occurs when a validator places their transaction to
+              Back-running occurs when a validator places their transaction to
               be finalized directly after another transaction. Back-running
               typically occurs in conjunction with token listings on DEXEs. For
               example, immediately after someone begins providing liquidity for
@@ -114,12 +114,12 @@
               tokens at a higher price
             </div>
             <div class="frames_item frames_item--small">
-              Liquidations: Liquidations typically entail a transaction sender
+              Liquidations: Liquidations typically entail a transaction sender
               capitalizing on an oracle price update to be the first to
               liquidate a loan’s collateral to earn a profit
             </div>
             <div class="frames_item frames_item--small">
-              Time-bandit attacks are attacks where validators “rewrite” a
+              Time-bandit attacks are attacks where validators “rewrite” a
               blockchain’s transaction history to steal funds allocated by smart
               contracts in the past. If block rewards are small enough compared
               to MEV, it can be economically rational for validators to
@@ -129,7 +129,7 @@
           </div>
           <div class="frames_right">
             <div class="frames_item frames_item--small">
-              Front running, which is sometimes referred to as “sniping,” occurs
+              Front running, which is sometimes referred to as “sniping,” occurs
               when a validator detects a potentially profitable transaction(s)
               in the mempool. The validator then copies the user’s transaction
               and pays a higher fee for their transaction to be executed first –
@@ -137,14 +137,14 @@
             </div>
 
             <div class="frames_item frames_item--small">
-              Spam attacks, which are sometimes called “censorship attacks,”
+              Spam attacks, which are sometimes called “censorship attacks,”
               refer to instances where bots submit a large number of
               transactions to connect networks and prevent other users from
               being able to have their transactions confirmed
             </div>
 
             <div class="frames_item frames_item--small">
-              Uncle-bandit attacks refer to attacks in which validators notice
+              Uncle-bandit attacks refer to attacks in which validators notice
               transactions in rejected blocks (uncles) that are not confirmed
               and selectively bring one or few of them back into the main
               blockchain to profit from them
@@ -154,8 +154,8 @@
       </div>
 
       <div class="team">
-        <h2 class="team_title">Team</h2>
         <div class="team_section">
+          <h2 class="team_title">Team</h2>
           <div class="team_textWrapper">
             <p class="team_description">
               Our team of skilled developers has crafted a cutting-edge MEV bot
