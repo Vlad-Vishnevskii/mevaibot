@@ -1032,7 +1032,7 @@ img {
 }
 @media (max-width: 767px) {
   .footer_title {
-    font-size: 35px;
+    font-size: 28px;
     margin-bottom: 0;
   }
 }
@@ -1048,7 +1048,7 @@ img {
 @media (max-width: 767px) {
   .footer_description {
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.2;
   }
 }
@@ -1078,6 +1078,11 @@ img {
   line-height: normal;
   text-transform: uppercase;
 }
+@media (max-width: 767px) {
+  .footer_socialLabel {
+    font-size: 26px;
+  }
+}
 .footer_socialList {
   display: flex;
   gap: 30px;
@@ -1094,4 +1099,9 @@ img {
 }
 .footer_socialItem:hover {
   opacity: 0.6;
+}
+@media (max-width: 767px) {
+  .footer_socialItem svg {
+    width: 35px;
+  }
 }/*# sourceMappingURL=style.css.map */
